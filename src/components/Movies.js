@@ -7,28 +7,28 @@ function Movies() {
         <h4>Recommended for You</h4>
         <Content>
             <Wrap>
-                <img src="" alt="" />
+                <img src="/images/ford.webp" alt="" />
             </Wrap>
             <Wrap>
-                <img src="" alt="" />
+                <img src="/images/ford.webp" alt="" />
             </Wrap>
             <Wrap>
-                <img src="" alt="" />
+                <img src="/images/ford.webp" alt="" />
             </Wrap>
             <Wrap>
-                <img src="" alt="" />
+                <img src="/images/ford.webp" alt="" />
             </Wrap>
             <Wrap>
-                <img src="" alt="" />
+                <img src="/images/ford.webp" alt="" />
             </Wrap>
             <Wrap>
-                <img src="" alt="" />
+                <img src="/images/ford.webp" alt="" />
             </Wrap>
             <Wrap>
-                <img src="" alt="" />
+                <img src="/images/ford.webp" alt="" />
             </Wrap>
             <Wrap>
-                <img src="" alt="" />
+                <img src="/images/ford.webp" alt="" />
             </Wrap>
 
         </Content>
@@ -50,6 +50,8 @@ const Content = styled.div`
 
 const Wrap = styled.div`
     cursor: pointer;
+    display: flexbox;
+    height: 40%;
     border-radius: 10px;
     overflow: hidden;
     border: 3px solid rgba(249, 249, 249, 0.1);
